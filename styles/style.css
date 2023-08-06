@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans&display=swap');
+/* -----------------------------------------------------------
+------------------------- Common utilities  ------------------
+----------------------------------------------------------- */
+body{
+    width: 100%;
+    background-color: #FFF;
+}
+header, .main-1{
+    background-color: rgba(255, 144, 14, 0.10);
+}
+.header-title-container, .main-1-title, .main-1-img, .main-2{
+    margin-left: 228px;
+    margin-right: 240px;
+    padding-bottom: 20px;
+}
+.main-1-button, .main-2-button{
+    font-size: 14px;
+    font-weight: 550;
+    color: #FFF;
+    background-color: #FF900E;
+    border: #FF900E;
+    border-radius: 5px;
+    padding: 13px 20px 13px 20px;
+}
+.main-1-buttons, .main-2-title-3{
+    padding-top: 10px;
+}
+/* --------------------------------------
+--------------------header CSS-----------
+-------------------------------------- */
+.header-title-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.header-title-left{
+    font-size: 30px;
+    font-weight: 700;
+}
+.header-title-right-name{
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    gap: 45px;
+    color: #424242;
+}
+/* --------------------------------------------------------
+-------------------------main css style--------------------
+-------------------------------------------------------- */
+
+
+/* ======================
+=========main-1==========
+====================== */
+.main-1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.main-1-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-brand-new{
+    font-size: 40px;
+    font-weight: 700;
+    width: 450px;
+    text-align: center;
+}
+.title-brand-new-down-part{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    width: 620px;
+    color: #727272;
+}
+.main-1-thumbnail img{
+    width: 100%;
+}
+
+/* ======================
+=========main-2==========
+====================== */
+.main-2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.main-2-thumbnail{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 35px 20px 25px 20px;
+}
+.main-2-thumbnail img{
+    width: 100%;
+    border-radius: 3px;
+}
+.main-2-title-1{
+    font-size: 25px;
+    font-weight: 500;
+}
+.span-1{
+    color: var(--dark-03, #727272);
+}
+.span-2{
+    color: var(--dark-01, #131313);
+    font-weight: 700;
+}
+.span-3{
+    color: #FF900E;
+    font-weight: 700;
+}
+.main-2-title-2{
+    color: #727272;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* ======================
+=========main-3==========
+====================== */
